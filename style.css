@@ -55,3 +55,20 @@ footer {
     color: #1C5D99;
     padding: 20px 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px dashed white;
+    background-color: #ff5599;
+}
+
+.container li {
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+    background-color: #ff5555;
+    list-style-type: none;
+    font-size: 50px;
+}
