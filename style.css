@@ -72,3 +72,46 @@ footer {
     list-style-type: none;
     font-size: 50px;
 }
+.imgg-container {
+    display: flex;
+}
+.img {
+    width: 200px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.img-container {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.img-container li {
+    display: inline-block;
+    width: 32%;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.img-container ul li {
+    list-style-type: none;
+}
+
+.img-container img {
+    width: 80%;
+    display: inline-block;
+    transition: .25s;
+}
+.inline-img {
+    width: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+}
+.inline-img img {
+    width: 200px;
+}
